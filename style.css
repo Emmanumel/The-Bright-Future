@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-container img{
+    height: 32px;
+}
+
+header{
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.671);
+    
+
+    
+
+}
+
+.nav-links{
+    display: flex;
+    gap: 25px;
+}
+
+.hero-section-parent{
+padding: 50px 90px;
+display: flex;
+gap: 50px;
+}
+
+.hero-img img{
+
+    height: 250px;
+}
+
+.hero-text{
+    display: flex;
+    gap: 125px;
+    padding-top: 40px;
+    align-items: center;
+    text-align: justify;
+
+}
+
+.hero-text h1{
+    color: black;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 160px;
+    text-align: center;
+}
+
+.hero-text p{
+    color: rgba(0, 0, 0, 0.705);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+
+.cta-btn{
+    padding-top: 20px;
+  
+}
+
+.cta-btn a{
+    text-decoration: none;
+    color: black;
+    padding: 7px 10px;
+    color: black;
+    background-color:rgba(226, 52, 90, 0.911);
+    letter-spacing: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.hero-card{
+    background-color:rgb(0, 0, 34);
+    width: 250px;
+}
+
+
+.hero-card h1{
+    font-size: 32px;
+    color: rgba(226, 52, 90, 0.911);
+    padding: 15px 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+
+.card-info{
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card-info h3{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card-info p{
+    font-size:12px;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.line{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.line hr{
+color: rgba(255, 255, 255, 0.308);
+opacity: 50%;
+}
+
+.banner-img img{
+    height: 100px;
+}
+
+.banner-card{
+    display: flex;
+    gap: 20px;
+}
+
+.banner-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 40px;
+}
+
+.banner-text h1{
+    color: rgba(226, 52, 90, 0.911);
+}
+
+.banner-text h3{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+    
+
+}
+
+.banner-text p{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 7px;
+}
+
+.hamburger img{
+    display: none;
+}
+
+.hero-img-mobile img{
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+  .nav-links {
+ 
+    display: none;
+  }
+
+
+  .hamburger img {
+    display: block;
+    padding-left: 50px;
+  }
+
+  .hero-img img{
+    display: none;
+  }
+
+  .hero-img-mobile img{
+    display:block;
+    align-items: center;
+    object-fit: cover;
+    
+    
+    
+  }
+
+  .hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .hero-text h1{
+    text-align: justify;
+    max-width: 300px;
+
+  }
+
+  .hero-section-parent{
+    display: flex;
+    flex-direction: column;
+ 
+    
+    
+  }
+
+  .hero-card{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+
+  .banner-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px
+  }
+
+
+
+
+  
+
+
+
+
+
+}
+
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+
+
+
+
+
